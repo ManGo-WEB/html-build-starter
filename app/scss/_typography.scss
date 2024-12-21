@@ -1,0 +1,55 @@
+// FONTS //
+$primary-font: 'Proxima Nova', sans-serif;
+
+@font-face {
+    font-family: 'Proxima Nova', serif;
+    src: url(fonts/ProximaNova-Semibold.woff2) format('woff2'), 
+        url(fonts/ProximaNova-Semibold.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova', serif;
+    src: url(fonts/ProximaNova-Bold.woff2) format('woff2'), 
+        url(fonts/ProximaNova-Bold.woff) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: $primary-font, sans-serif;
+    font-size: 14px;
+    line-height: 1.6rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.9rem;    
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.9rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.6rem;
+    line-height: 2.14rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.6rem;
+    line-height: 2.14rem;
+    font-weight: 500;
+}
+
+input {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
